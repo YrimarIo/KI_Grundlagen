@@ -1,0 +1,7 @@
+# KI Grundlagen Tutorial - Abhängigkeiten
+
+# Numerische Berechnungen
+numpy>=1.24.0
+
+# Visualisierung
+matplotlib>=3.7.0
