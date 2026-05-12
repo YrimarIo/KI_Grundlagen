@@ -1,0 +1,9 @@
+docker run -d --name n8n \
+    --restart unless-stopped \
+    -p 0.0.0.0:5678:5678 \
+    -v n8n_data:/home/node/.n8n \
+    -e N8N_SECURE_COOKIE=false \
+    -e N8N_RUNNERS_MODE=internal \
+    -e N8N_EDITOR_BASE_URL=http://ip-des-PI:5678\
+    -e WEBHOOK_URL=http://ip-des-PI:5678\
+    n8nio/n8n:latest
