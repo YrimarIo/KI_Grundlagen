@@ -91,7 +91,6 @@ docker run -d --name ollama \
     --restart unless-stopped \
     -p 11434:11434 \
     -v ollama:/root/.ollama \
-    --network openllama\
     ollama/ollama:latest
 
 # Wait for Ollama to be ready (simple sleep; could be improved with health check)
@@ -114,7 +113,6 @@ docker run -d --name open-webui \
     -e ENABLE_RAG_EMBEDDING=true \
     -e ENABLE_RAG_WEB_LOADER=true \
     -v open-webui:/app/backend/data \
-    --network openllama\
     ghcr.io/open-webui/open-webui:main
 
 
