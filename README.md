@@ -123,23 +123,6 @@ Prüfe die IP‑Adresse des Pi (z. B. im Router‑Dashboard oder über `arp -a
 
 ## 📁 Schritt 9 – Installationsskript aus GitHub herunterladen & ausführen  
 
-### Skript von GitHub holen  
-
-Du kannst das Skript direkt mit `curl`/`wget` herunterladen oder das komplette Repository klonen.
-
-**Einfacher Ansatz (Raw‑Download):**
-
-```bash
-wget https://github.com/YrimarIo/KI_Grundlagen/blob/main/install.sh
-# Das Skript liegt jetzt in der aktuellen Arbeitsverzeichnis unter install.sh
-```
-
-**Alternative (Repository klonen):**
-
-```bash
-git clone https://github.com/YrimarIo/KI_Grundlagen.git
-# Dann kannst du die Datei aus dem geklonten Ordner kopieren
-```
 
 ### Skript in einen neuen `install.sh`‑Datei auf dem Pi einfügen  
 
@@ -153,7 +136,7 @@ cd ~/Desktop
 nano install.sh
 # (oder `vi install.sh` / `vim install.sh` je nach Vorliebe)
 
-# Kopiere den Inhalt des heruntergeladenen Skripts (oder den Code aus dem Repository) in das nano‑Fenster.
+# Kopiere den Inhalt des Skripts install.sh aus dem Repository in das nano‑Fenster.
 
 # Drücke Strg + O → Enter (Datei speichern).
 # Drücke Strg + X (nano schließen).
