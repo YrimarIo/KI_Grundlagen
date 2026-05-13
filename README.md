@@ -90,7 +90,7 @@ In dieser Anleitung erfährst du Schritt für Schritt, wie du den **Raspberry 
 ---
 
 ## 🪙 Schritt 5 – Netzwerkeinrichtung  
-1. Klicke **“Optionen”** → **“Wi‑Fi‑Verbindung konfigurieren”** (optional).  
+1. Klicke **“Optionen”** → **“Wi‑Fi‑Verbindung konfigurieren”**.  
 2. Gib **SSID** und **Passwort** ein, wenn du das Pi per WLAN starten möchtest.  
 3. Klicke **“OK”** und **“Start”**.
 
