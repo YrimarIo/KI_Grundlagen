@@ -67,7 +67,7 @@ In dieser Anleitung erfährst du Schritt für Schritt, wie du den **Raspberry 
 ---
 
 ## 📦 Schritt 4 – Image wählen und sichern  
-1. Klicke **“Image auswählen”** und wähle **“Raspberry Pi OS Lite (64‑bit)”**.  
+1. Klicke **“Image auswählen”** und **"Raspberry Pi OS (other)"** wähle **“Raspberry Pi OS Lite (64‑bit)”**.  
 2. Klicke **“Weiter”**.
 
 ---
