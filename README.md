@@ -96,20 +96,20 @@ In dieser Anleitung erfährst du Schritt für Schritt, wie du den **Raspberry 
 
 ---
 
-## 🚀 Schritt 6 – Image auf die SD‑Karte schreiben  
-1. **Karte wählen** und **“Start”** klicken.  
-2. Der Imager formatiert, lädt das OS‑Image und schreibt es auf die Karte.  
-3. Nach Abschluss erscheint eine **“Success”**‑Meldung.
-
----
-
-## 🔑 Schritt 7 – SSH‑Server aktivieren  
+## 🔑 Schritt 6 – SSH‑Server aktivieren  
 - **Im Imager**: „SSH‑Server (OpenSSH) aktivieren“ bereits im Schritt 4 aktiviert → kein weiteres Vorgehen nötig.  
 - **Falls du SSH noch manuell aktivieren möchtest**:  
   ```bash
   sudo systemctl enable ssh
   sudo systemctl start ssh
   ```
+  
+---
+
+## 🚀 Schritt 7 – Image auf die SD‑Karte schreiben  
+1. **Karte wählen** und **“Start”** klicken.  
+2. Der Imager formatiert, lädt das OS‑Image und schreibt es auf die Karte.  
+3. Nach Abschluss erscheint eine **“Success”**‑Meldung.
 
 ---
 
